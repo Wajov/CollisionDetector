@@ -99,7 +99,7 @@ void detectCollisionCpuBvh(int vtxNum, Vec* vtxs, int triNum, Tri* tris) {
 extern void detectCollisionGpuBvh(int vtxNum, Vec* vtxs, int triNum, Tri* tris);
 
 int main() {
-    std::ifstream fin("flag/0108_00.obj");
+    std::ifstream fin("model/flag.obj");
     std::string s;
     std::vector<Vec> vertices;
     std::vector<Tri> triangles;
