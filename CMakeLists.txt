@@ -3,9 +3,7 @@ project(CollisionDetector CUDA)
 
 set(CMAKE_CUDA_STANDARD 14)
 
-include_directories(
-        include
-)
+include_directories(include)
 aux_source_directory(src SOURCE)
 add_executable(CollisionDetector ${SOURCE})
 
